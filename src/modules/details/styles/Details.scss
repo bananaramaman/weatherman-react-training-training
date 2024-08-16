@@ -1,0 +1,36 @@
+.details {
+    padding: 20px;
+
+    h2 {
+        color: blue
+    }
+}
+
+.details h2, .details h3 {
+    margin: 0 50px 10px;
+}
+
+.current {
+    display:flex;
+    padding: 10px 0px 10px;
+    text-align:left;
+}
+
+.forecast-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.day-forecast {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.day-forecast h4 {
+    margin: 0 0 5px;
+}

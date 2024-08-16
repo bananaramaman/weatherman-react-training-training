@@ -1,0 +1,28 @@
+.search {
+    padding: 20px;
+
+    h2 {
+        color: blue
+    }
+
+    input {
+        font-size: 20px;
+    }
+
+    &__text {
+
+        &--button {
+            font-size: 15px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        &--italic {
+            font-style: italic;
+        }
+
+        &--clickable {
+            cursor: pointer;
+        }
+    }
+}
